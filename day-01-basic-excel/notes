@@ -1,0 +1,26 @@
+# Day 01 – Basic Excel
+
+## What I Learned
+- Addition, subtraction, multiplication, division
+- Cell references (A1, B2)
+- Basic formatting cell(Bold, Color, Underline,etc)
+- Basic formatting number  (currency,percent) 
+- Merge row/column
+- Alignment 
+
+## Functions / Features
+- =SUM()
+- =AVERAGE()
+- =COUNT()
+- =MAX()
+- =MIN()
+- Alignment
+- Number
+
+## Practice
+- Create a simple stock table
+
+## Key Takeaways
+- Excel formulas always start with "="
+- Cell reference is critical for accuracy
+- Count function cannot sum cells type of string

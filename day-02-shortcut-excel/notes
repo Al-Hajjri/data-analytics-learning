@@ -1,0 +1,20 @@
+# Day 02 – Excel Shortcuts
+
+## What I Learned
+- Learned commonly used Excel shortcuts to improve efficiency and speed when working with data.
+
+## Functions / Features
+- **Ctrl + T** → Convert selected data range into a table
+- **Alt + F1** → Create a chart from selected rows or columns
+- **Ctrl + Shift + L** → Enable or disable filters
+- **Ctrl + PgUp / PgDn** → Move between worksheets
+- **Ctrl + Shift + PgUp / PgDn** → Select multiple worksheets
+- **Alt + =** → Automatically insert SUM formula
+
+## Practice
+- Applied shortcuts to a sample dataset to create tables, filters, and summary calculations more efficiently.
+
+## Key Takeaways
+- Using shortcuts significantly reduces time spent on repetitive tasks.
+- Tables and filters are essential for basic data reporting workflows.
+

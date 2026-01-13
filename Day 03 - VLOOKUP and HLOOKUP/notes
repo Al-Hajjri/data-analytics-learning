@@ -1,0 +1,16 @@
+# Day 03 – VLOOKUP & HLOOKUP
+
+## What I Learned
+- **VLOOKUP** is used to retrieve data vertically from a table and is more commonly used.
+- **HLOOKUP** is used to retrieve data horizontally and is less commonly used.
+
+## Functions / Features
+- `=VLOOKUP(lookup_value, table_array, col_index_num, FALSE)`
+- `=HLOOKUP(lookup_value, table_array, row_index_num, FALSE)`
+
+## Practice
+- Created simple practice examples using both VLOOKUP and HLOOKUP to retrieve data from tables.
+
+## Key Takeaways
+- Always lock the table reference using **F4** to avoid reference errors when copying formulas.
+- The last argument of the formula can use **FALSE** or **0**, as both mean an exact match.

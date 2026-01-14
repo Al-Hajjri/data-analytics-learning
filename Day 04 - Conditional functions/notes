@@ -1,0 +1,24 @@
+# Day 04 – Conditional Functions
+
+## What I Learned
+- **COUNT** → Counts cells that contain numeric values
+- **COUNTA** → Counts cells that are not empty (including text)
+- **IF** → Performs logical tests and returns values based on conditions
+- **COUNTIF** → Counts cells that meet a single condition
+- **SUMIF** → Sums values based on a condition
+- **AVERAGEIF** → Calculates average values based on a condition
+
+## Functions / Features
+- `=COUNT(range)`
+- `=COUNTA(range)`
+- `=IF(logical_test, value_if_true, value_if_false)`
+- `=COUNTIF(range, criteria)`
+- `=SUMIF(range, criteria, sum_range)`
+- `=AVERAGEIF(range, criteria, average_range)`
+
+## Practice
+- Created simple practice examples using IF and conditional functions to analyze data based on specific criteria.
+
+## Key Takeaways
+- **COUNT** cannot count text values.
+- Use **COUNTIFS**, **SUMIFS**, or **AVERAGEIFS** when working with multiple criteria.

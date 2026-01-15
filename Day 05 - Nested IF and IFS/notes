@@ -1,0 +1,19 @@
+# Day 05 – Nested IF & IFS
+
+## What I Learned
+- Learned how to use **nested IF** to handle multiple conditions in a single formula.
+- Learned the difference between **nested IF** and **IFS** for logical testing.
+- Understood when it is better to use nested IF versus IFS for readability and simplicity.
+
+## Functions / Features
+- `=IF(logical_test, value_if_true, IF(logical_test, value_if_true, value_if_false))`
+- `=IFS(logical_test1, value_if_true1, logical_test2, value_if_true2, ...)`
+
+## Practice
+- Created small practice cases to compare nested IF and IFS formulas.
+- Tested multiple conditions to classify data based on predefined rules.
+
+## Key Takeaways
+- Nested IF can handle complex logic but becomes harder to read when conditions increase.
+- IFS is more readable and suitable for multiple conditions without needing nested formulas.
+- Choosing the right function improves formula clarity and maintainability.

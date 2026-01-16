@@ -1,0 +1,22 @@
+# Day 06 – IF with AND, OR, LEFT, MID, RIGHT
+
+## What I Learned
+- Learned how to combine **IF** with **AND** and **OR** to handle multiple logical conditions.
+- Learned how to use **LEFT**, **MID**, and **RIGHT** to extract specific text from cells.
+- Applied text functions together with logical functions to solve conditional cases.
+
+## Functions / Features
+- `=IF(AND(condition1, condition2), value_if_true, value_if_false)`
+- `=IF(OR(condition1, condition2), value_if_true, value_if_false)`
+- `=LEFT(text, num_chars)`
+- `=MID(text, start_num, num_chars)`
+- `=RIGHT(text, num_chars)`
+
+## Practice
+- Created practice cases using IF combined with AND and OR to classify data.
+- Used LEFT, MID, and RIGHT functions to extract text values and apply conditions based on the extracted results.
+
+## Key Takeaways
+- **AND** requires all conditions to be TRUE, while **OR** only requires one condition to be TRUE.
+- Text functions are useful when conditions depend on specific characters or codes within a cell.
+- Combining logical and text functions allows more flexible and powerful data analysis.

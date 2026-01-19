@@ -1,0 +1,26 @@
+# Day 07 – XLOOKUP
+
+## What I Learned
+- Learned how to use **XLOOKUP** as an improved and more flexible replacement for VLOOKUP.
+- Understood the role of **lookup_array** and **return_array** in XLOOKUP.
+- Learned how XLOOKUP solves limitations found in VLOOKUP, such as column order dependency.
+
+## Functions / Features
+- `=XLOOKUP(lookup_value, lookup_array, return_array, [if_not_found], [match_mode], [search_mode])`
+
+### Parameter Explanation
+- **lookup_array** → The reference table or range where the lookup value is searched.
+- **return_array** → The reference table or range containing the value to return.
+- Parameters inside **[ ]** are optional and do not need to be filled.
+- To skip optional parameters, simply use a comma (**`,`**).
+
+## Practice
+- Created simple practice cases using XLOOKUP to retrieve data from tables.
+- Compared XLOOKUP results with VLOOKUP to understand the differences.
+
+## Key Takeaways
+- XLOOKUP does not require counting column positions like VLOOKUP.
+- Optional parameters can be skipped using commas if not needed.
+- Always read the function rules carefully (e.g. **-1**, **0**, **1**) to understand how matching and searching work.
+- XLOOKUP is more flexible, readable, and safer for reporting purposes.
+

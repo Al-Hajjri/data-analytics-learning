@@ -1,0 +1,25 @@
+# Day 08 – Conditional Formatting
+
+## What I Learned
+- Learned how to use **Conditional Formatting** to automatically format cells based on specific conditions.
+- Applied formatting rules such as color fill, font color, and bold text to highlight important values.
+- Understood how conditional formatting helps improve data readability in reports.
+
+## Functions / Features
+- **Less Than** → Formats cells when values are below a specified number.
+- **Greater Than** → Formats cells when values exceed a specified number.
+- **Equal To** → Formats cells when values match an exact value.
+- **Text That Contains** → Formats cells based on specific text.
+- **Data Bars** → Displays visual bars inside cells to represent values.
+- **Duplicate Values** → Highlights duplicate data entries.
+- **Color Scales** → Applies gradient colors based on data distribution.
+
+## Practice
+- Selected target cells first, then applied conditional formatting rules.
+- Used both predefined formats and custom formats for different conditions.
+- Created small exercises to visualize data trends and highlight key values.
+
+## Key Takeaways
+- Always select the cells to be formatted before applying conditional formatting.
+- Conditional formatting rules can be customized based on reporting needs.
+- Visual formatting makes it easier to identify patterns, outliers, and duplicates in data.

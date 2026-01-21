@@ -1,0 +1,26 @@
+# Day 09 – Pivot Table Basics
+
+## What I Learned
+- Learned the basic concept of **Pivot Table** to summarize and analyze data efficiently.
+- Learned how to create a Pivot Table by selecting the data range to be analyzed.
+- Understood how to choose which fields are displayed as rows, columns, values, and filters.
+
+## Functions / Features
+- **Rows** → Display data vertically (downwards).
+- **Columns** → Display data horizontally (sideways).
+- **Values** → Show calculated results such as sum, count, or average.
+- **Filters** → Filter data based on selected criteria.
+- **Grand Total** → Automatically added to show total values.
+
+## Practice
+- Selected the target dataset and created a Pivot Table.
+- Assigned specific fields to Rows, Columns, and Values to analyze the data.
+- Used filters to display specific data:
+  - Filtered a single item by selecting it and clicking OK.
+  - Enabled **Select Multiple Items** to filter more than one data value.
+
+## Key Takeaways
+- Pivot Tables make data summarization faster without using complex formulas.
+- Rows and Columns control how data is displayed vertically and horizontally.
+- Filters help focus on specific data segments.
+- Pivot Tables automatically calculate totals, making them ideal for reporting.

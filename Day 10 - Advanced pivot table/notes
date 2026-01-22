@@ -1,0 +1,30 @@
+# Day 10 – Pivot Table Advanced (Calculated Field & Value Settings)
+
+## What I Learned
+- Learned how to create a new field in a Pivot Table using **Calculated Field**.
+- Learned how to sort Pivot Table values from smallest to largest and vice versa.
+- Learned how to change the default value calculation from **SUM** to other calculations.
+- Learned how to rank data in a Pivot Table using **Show Values As**.
+
+## Functions / Features
+- **Calculated Field**
+  - PivotTable Analyze → Fields, Items & Sets → Calculated Field
+  - Define a new field name and apply a formula.
+- **Value Field Settings**
+  - Change calculation type (Sum, Average, Max, Min, Count, etc.).
+- **Sorting**
+  - Sort values in ascending or descending order.
+- **Show Values As**
+  - Display values as rank, percentage, or other calculated views.
+
+## Practice
+- Added a new calculated field to create custom calculations in a Pivot Table.
+- Changed value settings from the default **Sum** to **Average**, **Max**, and **Min**.
+- Sorted Pivot Table results to identify highest and lowest values.
+- Applied **Show Values As** to rank data within the Pivot Table.
+
+## Key Takeaways
+- Calculated Fields allow additional analysis without modifying the source data.
+- Value Field Settings provide flexibility in how data is summarized.
+- Sorting helps quickly identify top and bottom performers.
+- **Show Values As** is useful for ranking and comparative analysis in reports.

@@ -1,0 +1,30 @@
+# Day 11 – Pivot Table Visualization (Pivot Chart, Slicer, Timeline)
+
+## What I Learned
+- Reviewed and continued learning Pivot Table features.
+- Learned how to create charts directly from a Pivot Table using **Pivot Chart**.
+- Learned how to add **Slicer** to filter Pivot Table data interactively.
+- Learned how to insert a **Timeline** for date-based filtering.
+
+## Functions / Features
+- **Pivot Chart**
+  - PivotTable Analyze → Pivot Chart
+  - Choose the preferred chart type (Column, Bar, Line, Pie, etc.).
+- **Slicer**
+  - PivotTable Analyze → Insert Slicer
+  - Select fields to be used as interactive filters.
+- **Timeline**
+  - PivotTable Analyze → Insert Timeline
+  - Used for filtering data based on date fields (requires date-format data).
+
+## Practice
+- Created charts from Pivot Tables to visualize summarized data.
+- Applied slicers to quickly filter Pivot Table data by selected categories.
+- Inserted a timeline to filter Pivot Table data by specific time ranges.
+- Practiced combining Pivot Table, Chart, and interactive filters for reporting.
+
+## Key Takeaways
+- Pivot Charts help transform Pivot Table data into clear visual insights.
+- Slicers make data filtering faster and more user-friendly.
+- Timelines are effective for analyzing trends over time.
+- Pivot Table visualization improves reporting clarity and presentation quality.

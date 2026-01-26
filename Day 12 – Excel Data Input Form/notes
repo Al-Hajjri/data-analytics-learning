@@ -1,0 +1,32 @@
+# Day 12 – Excel Data Input Form
+
+## What I Learned
+- Learned how to create a data input form in Excel to simplify data entry.
+- Learned how to add the **Form** feature to the Quick Access Toolbar.
+- Learned how to input, edit, and manage data using Excel Form.
+- Learned the available menus and functions inside the input form.
+
+## Functions / Features
+- **Excel Form**
+  - File → Options → Quick Access Toolbar
+  - Change *Popular Commands* to *Commands Not in the Ribbon*
+  - Select **Form** → Add → OK
+  - The Form button appears in the top-left Quick Access Toolbar.
+- **Form Menus**
+  - New: add new data
+  - Delete: remove selected data
+  - Find Next: move to the next record
+  - Find Previous: move to the previous record
+  - Criteria: filter records based on specific conditions
+
+## Practice
+- Created table headers as a data structure.
+- Activated the Form feature and used it to input data into the table.
+- Edited existing data by selecting the desired record and modifying values.
+- Tested navigation and filtering features within the form.
+
+## Key Takeaways
+- Excel Form simplifies and speeds up data input.
+- Table headers are required before using the Form feature.
+- Editing data can be done directly through the form without manually changing cells.
+- Form menus help manage and filter records efficiently.

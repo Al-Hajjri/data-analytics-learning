@@ -1,0 +1,39 @@
+# Day 13 – Excel Chart (Bar Chart)
+
+## What I Learned
+- Learned how to create charts in Excel with a focus on **Bar Chart**.
+- Learned how to create charts using Excel recommendations and manual selection.
+- Learned how to customize chart styles, colors, layouts, and models.
+- Learned how to add or remove data from an existing chart.
+- Learned how to add chart elements and use a secondary axis for better visualization.
+
+## Functions / Features
+- **Create Chart**
+  - Block/select the data to be visualized.
+  - Insert chart manually or use Excel chart recommendations.
+- **Chart Styling**
+  - Change colors, chart style, layout, and model.
+- **Edit Chart Data**
+  - Chart Design → Select Data
+  - Add new data by selecting the updated data range.
+  - Remove data by unchecking or removing unwanted data series.
+- **Chart Elements**
+  - Chart Design → Add Chart Element
+  - Add titles, axis labels, data labels, legend, and gridlines.
+- **Secondary Axis**
+  - Used when data values have large gaps or differences.
+  - Chart Design → Change Chart Type → Combo
+  - Enable secondary axis for selected data.
+
+## Practice
+- Created a bar chart from selected data.
+- Customized chart appearance using styles and layout options.
+- Added new data to an existing chart.
+- Removed unnecessary data from the chart.
+- Applied secondary axis to improve data readability.
+
+## Key Takeaways
+- Data must be selected first before creating a chart.
+- Chart Design tools allow full customization without recreating the chart.
+- Secondary axis is useful when data ranges differ significantly.
+- Proper styling and elements make charts clearer and more informative.

@@ -1,0 +1,42 @@
+# Day 14 – Data Cleaning (Text & Duplicates)
+
+## What I Learned
+Today I learned basic data cleaning techniques in Excel to improve data consistency and readability. The focus was on cleaning text data, combining columns, and removing duplicate values.
+
+## Functions / Features
+
+### Text Cleaning
+- `TRIM()` → Removes extra spaces (leading, trailing, and double spaces)
+- `UPPER()` → Converts text to uppercase
+- `LOWER()` → Converts text to lowercase
+- `PROPER()` → Capitalizes the first letter of each word
+
+### Combine Data (Concatenate)
+- `=CONCATENATE(A18,B18)` → Combines text from multiple cells
+- Add space between text using `" "`  
+  Example:  
+  `=CONCATENATE(A18," ",B18)`
+- Alternative method using `&` (more commonly used):  
+  `=A18 & " " & B18`
+
+### Remove Duplicates
+- Shortcut method:
+  - `Ctrl + A`
+  - `Alt + A + M`
+  - Select the column(s) to remove duplicates
+- Menu method:
+  - Select the data
+  - Go to **Data** tab
+  - Click **Remove Duplicates**
+  - Choose the column(s) and confirm
+
+## Practice
+- Cleaned inconsistent text using TRIM, UPPER, LOWER, and PROPER
+- Combined first name and last name into one column
+- Removed duplicate data from selected columns
+
+## Key Takeaways
+- Clean text data first before doing analysis or reporting
+- Use `" "` to add space when combining text
+- The `&` operator is simpler and more flexible than CONCATENATE
+- Always check selected columns before removing duplicates to avoid data loss

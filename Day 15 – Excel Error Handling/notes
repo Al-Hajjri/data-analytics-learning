@@ -1,0 +1,40 @@
+# Day 15 – Excel Error Handling
+
+## What I Learned
+Today I learned how to identify and understand common error types in Excel, including the causes of each error and how they usually occur during data processing and analysis.
+
+## Error Types & Causes
+
+- **#N/A**
+  - Occurs when data is not found.
+  - Commonly happens when using **VLOOKUP** or **HLOOKUP** and the lookup value does not exist in the reference table.
+
+- **#DIV/0!**
+  - Occurs when dividing a number by zero.
+
+- **#NAME?**
+  - Occurs due to a typo in a formula or when Excel does not recognize the function name.
+
+- **#NUM!**
+  - Occurs when a formula contains invalid numeric values or does not meet mathematical logic.
+
+- **#VALUE!**
+  - Occurs when Excel tries to perform calculations using incompatible data types (e.g. adding numbers with text).
+
+- **#REF!**
+  - Occurs when a referenced cell is deleted after the formula has been created.
+
+- **#####**
+  - Occurs when a column is not wide enough to display the value.
+
+- **#CALC!**
+  - Occurs due to calculation errors, commonly in dynamic array formulas (e.g. FILTER) when the result does not exist in the reference table.
+
+## Practice
+- Observed and tested different error types by creating simple examples.
+- Identified the root cause of each error based on the formula used.
+
+## Key Takeaways
+- Understanding error messages helps troubleshoot formulas faster.
+- Many errors come from missing data, incorrect references, or wrong data types.
+- Always check formula logic and referenced cells to prevent errors.

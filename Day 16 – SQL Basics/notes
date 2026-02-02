@@ -1,0 +1,61 @@
+# Day 16 – SQL Basics
+
+## What I Learned
+Today I started learning SQL and focused on reviewing basic SQL commands used for data retrieval and data manipulation. The focus was on understanding how to display, filter, insert, update, and delete data in a database.
+
+## Commands / Features
+
+- **SELECT**
+  - Used to retrieve data from a table.
+  - Can display all columns or specific columns.
+
+- **SELECT FROM**
+  - Used to display specific columns from a table.
+  - Example:
+    ```sql
+    SELECT column1, column2
+    FROM table_name;
+    ```
+
+- **WHERE**
+  - Used to filter data based on conditions.
+  - Example:
+    ```sql
+    SELECT *
+    FROM table_name
+    WHERE condition;
+    ```
+
+- **INSERT**
+  - Used to add new data into a table.
+  - Example:
+    ```sql
+    INSERT INTO table_name (column1, column2)
+    VALUES (value1, value2);
+    ```
+
+- **UPDATE**
+  - Used to modify existing data in a table.
+  - Example:
+    ```sql
+    UPDATE table_name
+    SET column1 = value1
+    WHERE condition;
+    ```
+
+- **DELETE**
+  - Used to remove data from a table.
+  - Example:
+    ```sql
+    DELETE FROM table_name
+    WHERE condition;
+    ```
+
+## Practice
+- Practiced writing basic SQL queries to retrieve and filter data.
+- Tested inserting, updating, and deleting data in sample tables.
+
+## Key Takeaways
+- **SELECT** is the most commonly used command for data analysis.
+- **WHERE** is essential to avoid modifying or deleting unintended data.
+- Always check conditions carefully before running **UPDATE** or **DELETE** commands.

@@ -1,0 +1,28 @@
+# Day 17 – SQL Filtering & Text Search (WHERE, ORDER BY, LIMIT, LIKE)
+
+## What I Learned
+Today I continued learning SQL by focusing on data filtering, sorting, limiting results, and searching text patterns using the **WHERE**, **ORDER BY**, **LIMIT**, and **LIKE** clauses.
+
+## Commands / Features
+
+### ORDER BY
+- Used to sort data in ascending or descending order.
+- Example:
+```sql
+SELECT *
+FROM users
+ORDER BY age DESC;
+
+### LIMIT
+- Used to limit the number of returned rows.
+- Example:
+SELECT *
+FROM users
+LIMIT 3;
+
+### LIKE (Text Search)
+- Used to search text patterns in a column.
+- Example:
+SELECT *
+FROM users
+WHERE name LIKE 'A%';

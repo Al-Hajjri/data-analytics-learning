@@ -1,0 +1,41 @@
+# Day 18 – SQL Aggregate Functions
+
+## What I Learned
+Today I learned about **SQL aggregate functions**, which are used to perform calculations on multiple rows and return a single summarized value. These functions are commonly used in reporting and data analysis.
+
+## Commands / Features
+
+### MIN()
+- Returns the smallest value in a column.
+- Example:
+```sql
+SELECT MIN(age) AS min_age
+FROM users;
+
+### MAX()
+- Returns the largest value in a column.
+- Example:
+```sql
+SELECT MAX(age) AS max_age
+FROM users;
+
+### COUNT()
+- Returns the number of rows in a result set.
+- Example:
+```sql
+SELECT COUNT(*) AS total_users
+FROM users;
+
+### SUM()
+- Returns the total sum of a numeric column.
+- Example:
+```sql
+SELECT SUM(salary) AS total_salary
+FROM employees;
+
+### AVG()
+- Returns the average value of a numeric column.
+- Example:
+```sql
+SELECT AVG(age) AS average_age
+FROM users;

@@ -1,0 +1,29 @@
+# Day 20 – SQL HAVING Clause
+
+## What I Learned
+Today I learned about the **SQL HAVING clause**, which is used to filter grouped data after applying `GROUP BY`.
+
+While `WHERE` filters rows before grouping, `HAVING` filters the result after aggregation.
+
+`HAVING` is commonly used together with aggregate functions such as:
+- COUNT()
+- SUM()
+- AVG()
+- MIN()
+- MAX()
+
+---
+
+## Purpose of HAVING
+- Filter grouped results
+- Apply conditions to aggregate values
+- Refine summarized data
+
+---
+
+## Basic Syntax
+```sql
+SELECT column_name, AGGREGATE_FUNCTION(column_name)
+FROM table_name
+GROUP BY column_name
+HAVING condition;

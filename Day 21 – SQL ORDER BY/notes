@@ -1,0 +1,29 @@
+# Day 21 – SQL ORDER BY
+
+## What I Learned
+Today I learned about the **SQL ORDER BY clause**, which is used to sort query results in a specific order.
+
+`ORDER BY` does not change the data itself.  
+It only changes how the result is displayed.
+
+It can sort data:
+- From smallest to largest
+- From largest to smallest
+- Alphabetically (A–Z or Z–A)
+- By date (oldest to newest or newest to oldest)
+
+---
+
+## Purpose of ORDER BY
+- Sort query results
+- Organize reports
+- Create rankings (top or lowest values)
+- Improve readability of output
+
+---
+
+## Basic Syntax
+```sql
+SELECT column_name
+FROM table_name
+ORDER BY column_name ASC;

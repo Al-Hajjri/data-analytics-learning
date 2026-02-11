@@ -1,0 +1,29 @@
+# Day 22 – Combining GROUP BY, HAVING, and ORDER BY
+
+## What I Learned
+Today I learned how to combine:
+
+- GROUP BY → to group data
+- HAVING → to filter grouped results
+- ORDER BY → to sort the final output
+
+These three clauses are commonly used together when creating reports and data summaries.
+
+---
+
+## How They Work Together
+
+1. GROUP BY groups rows with the same values.
+2. HAVING filters the grouped results.
+3. ORDER BY sorts the final output.
+
+---
+
+## General Syntax
+```sql
+SELECT column_name, AGGREGATE_FUNCTION(column_name)
+FROM table_name
+WHERE condition
+GROUP BY column_name
+HAVING AGGREGATE_FUNCTION(column_name) condition
+ORDER BY column_name ASC | DESC;

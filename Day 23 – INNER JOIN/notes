@@ -1,0 +1,38 @@
+# Day 23 – INNER JOIN
+
+## What I Learned
+Today I learned about:
+
+- INNER JOIN → to combine data from two related tables
+- Primary Key (PK) → unique identifier of a table
+- Foreign Key (FK) → reference to a primary key in another table
+
+INNER JOIN is one of the most important concepts in relational databases.
+
+---
+
+## What is INNER JOIN?
+
+- Used to combine two tables
+- Returns only matching rows
+- Requires a related column between tables
+- Ignores unmatched data
+
+---
+
+## How INNER JOIN Works
+
+1. Take rows from the first table.
+2. Compare the related column with the second table.
+3. If the values match → combine them into one row.
+4. If they do not match → the row is not included.
+
+---
+
+## General Syntax
+
+```sql
+SELECT column_name
+FROM table1
+INNER JOIN table2
+ON table1.column_name = table2.column_name;

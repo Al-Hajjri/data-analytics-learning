@@ -1,0 +1,34 @@
+# Day 24 – LEFT JOIN and RIGHT JOIN
+
+## What I Learned
+Today I learned about:
+
+- LEFT JOIN → keeps all data from the left table
+- RIGHT JOIN → keeps all data from the right table
+- How they differ from INNER JOIN
+- When to use each JOIN type
+
+LEFT and RIGHT JOIN are used when we want to see unmatched data.
+
+---
+
+## LEFT JOIN
+
+### Definition
+LEFT JOIN returns:
+- All rows from the left table
+- Matching rows from the right table
+- NULL if there is no match
+
+### Simple Rule
+LEFT JOIN = Keep everything on the LEFT side
+
+---
+
+## LEFT JOIN Syntax
+
+```sql
+SELECT column_name
+FROM table1
+LEFT JOIN table2
+ON table1.column_name = table2.column_name;

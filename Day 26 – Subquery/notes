@@ -1,0 +1,47 @@
+# Day 26 – Subquery
+
+## What I Learned
+Today I learned about:
+
+- What a Subquery is
+- Different types of subqueries
+- When to use `=`, `IN`, `EXISTS`, `NOT IN`, `NOT EXISTS`
+- What is a Correlated Subquery
+
+A subquery allows us to use a query inside another SQL query.
+
+---
+
+## Subquery Types Overview
+
+| Type       | When to Use                           |
+|------------|----------------------------------------|
+| `=`        | When subquery returns one value        |
+| `IN`       | When subquery returns multiple values  |
+| `EXISTS`   | When checking if related data exists   |
+| `NOT IN`   | When excluding a list of values        |
+| `NOT EXISTS` | When checking missing relationships  |
+| `Correlated` | When comparison is needed per row   |
+
+---
+
+## What is a Subquery?
+
+A subquery is a query inside another SQL query.
+
+It is usually written inside parentheses `()`.
+
+- The inner query runs first.
+- The outer query uses the result of the inner query.
+
+---
+
+## Basic Syntax
+
+```sql
+SELECT column_name
+FROM table_name
+WHERE column_name operator (
+    SELECT column_name
+    FROM table_name
+);

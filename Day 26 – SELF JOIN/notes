@@ -1,0 +1,47 @@
+# Day 26 – SELF JOIN
+
+## What I Learned
+Today I learned about:
+
+- SELF JOIN → joining a table with itself
+- How to use aliases in JOIN
+- How to handle hierarchical relationships (like manager and employee)
+
+SELF JOIN is useful when data inside one table relates to other rows in the same table.
+
+---
+
+## What is SELF JOIN?
+
+SELF JOIN is when a table joins to itself.
+
+It is used when:
+- A table has hierarchical data
+- A row is related to another row in the same table
+
+Example:
+- employees table
+- reportsTo column refers to employeeNumber (manager relationship)
+
+---
+
+## Why We Need Aliases?
+
+When joining a table to itself, we must use aliases.
+
+Without aliases, SQL cannot differentiate between the two instances of the same table.
+
+Example:
+- employees e  → employee
+- employees m  → manager
+
+---
+
+## SELF JOIN Syntax
+
+```sql
+SELECT e.column_name,
+       m.column_name
+FROM employees e
+JOIN employees m
+ON e.reportsTo = m.employeeNumber;

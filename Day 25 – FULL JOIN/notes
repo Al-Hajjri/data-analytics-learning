@@ -1,0 +1,37 @@
+# Day 25 – FULL JOIN
+
+## What I Learned
+Today I learned about:
+
+- FULL JOIN → combines LEFT JOIN and RIGHT JOIN
+- How to show all matched and unmatched data
+- When FULL JOIN is useful in data analysis
+
+FULL JOIN returns all rows from both tables.
+
+---
+
+## What is FULL JOIN?
+
+FULL JOIN returns:
+
+- All rows from the left table
+- All rows from the right table
+- Matching rows are combined
+- Non-matching rows show NULL on the missing side
+
+---
+
+## Simple Rule
+
+FULL JOIN = Keep everything from BOTH tables
+
+---
+
+## FULL JOIN Syntax
+
+```sql
+SELECT column_name
+FROM table1
+FULL JOIN table2
+ON table1.column_name = table2.column_name;

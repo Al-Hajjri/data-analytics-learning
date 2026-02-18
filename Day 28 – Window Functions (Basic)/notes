@@ -1,0 +1,35 @@
+# Day 28 – Window Functions (Basic)
+
+## What I Learned
+Today I learned about:
+
+- Understanding OVER()
+- Understanding PARTITION BY
+- Using ROW_NUMBER()
+- Using RANK()
+- Using SUM() OVER()
+- Creating Running Total
+
+Window functions allow calculations across a set of rows without collapsing them.
+
+---
+
+## What is a Window Function?
+
+A window function performs calculations across related rows
+while keeping the original rows.
+
+Unlike GROUP BY:
+- GROUP BY reduces rows
+- Window Function keeps all rows
+
+---
+
+## Basic Structure
+
+```sql
+FUNCTION_NAME(column_name)
+OVER (
+    PARTITION BY column_name
+    ORDER BY column_name
+)

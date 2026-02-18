@@ -1,0 +1,37 @@
+# Day 27 – CASE WHEN (Conditional Logic in SQL)
+
+## What I Learned
+Today I learned about:
+
+- Creating categories from numeric values
+- Using CASE in SELECT
+- Using CASE with SUM / COUNT
+- Using CASE with GROUP BY
+- Understanding that CASE runs per row
+- Understanding that CASE does NOT filter data (WHERE does)
+- Using CASE for conditional aggregation
+
+CASE allows us to add conditional logic inside SQL queries.
+
+---
+
+## What is CASE?
+
+CASE is used to create conditional logic in SQL.
+
+It works like IF–ELSE in programming.
+
+CASE is evaluated for each row.
+
+---
+
+## Basic Syntax
+
+```sql
+SELECT column_name,
+       CASE
+           WHEN condition THEN result
+           WHEN condition THEN result
+           ELSE result
+       END AS alias_name
+FROM table_name;

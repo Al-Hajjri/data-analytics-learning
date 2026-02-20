@@ -1,0 +1,46 @@
+# Day 29 – LAG() and LEAD()
+
+## What I Learned
+Today I learned about:
+
+- What LAG() is
+- What LEAD() is
+- How to compare current row with previous row
+- How to compare current row with next row
+- Using LAG and LEAD with PARTITION BY
+- Using LAG and LEAD for difference calculation
+
+LAG and LEAD are window functions used to access data from another row without using self join.
+
+---
+
+## What is LAG()?
+
+LAG() returns the value from the previous row.
+
+It looks backward.
+
+---
+
+## What is LEAD()?
+
+LEAD() returns the value from the next row.
+
+It looks forward.
+
+---
+
+## Basic Structure
+
+```sql
+LAG(column_name, offset, default_value)
+OVER (
+    PARTITION BY column_name
+    ORDER BY column_name
+)
+
+LEAD(column_name, offset, default_value)
+OVER (
+    PARTITION BY column_name
+    ORDER BY column_name
+)

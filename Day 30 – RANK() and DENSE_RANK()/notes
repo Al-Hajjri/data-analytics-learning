@@ -1,0 +1,30 @@
+# Day 30 – RANK() and DENSE_RANK()
+
+## What I Learned
+Today I learned about:
+
+- What RANK() is
+- What DENSE_RANK() is
+- The difference between RANK and DENSE_RANK
+- How OVER() works
+- How PARTITION BY works in ranking
+- When to use each ranking function
+
+RANK and DENSE_RANK are window functions used to assign rankings to rows.
+
+---
+
+## Basic Structure
+
+```sql
+RANK()
+OVER (
+    PARTITION BY column_name
+    ORDER BY column_name
+)
+
+DENSE_RANK()
+OVER (
+    PARTITION BY column_name
+    ORDER BY column_name
+)
